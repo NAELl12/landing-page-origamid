@@ -4,6 +4,6 @@
 <div>
  
 
-  <p>O desafio é criar uma pequena página web , cujo tema central são bicicletas , Anunciando promoções e os seus benéficios</p>
+  <p>O desafio é criar uma  página web simples , cujo tema central são bicicletas , Anunciando promoções e os seus benéficios</p>
 
 </div>
