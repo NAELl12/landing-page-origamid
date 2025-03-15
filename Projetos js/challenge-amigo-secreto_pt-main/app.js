@@ -12,16 +12,16 @@ function adicionarAmigo() {
     alert("Este nome já foi adicionado!");
     return;
   }
-  amigos.push(nome); // Adiciona ao array
+  amigos.push(nome);
 
   adicionarNomeNaLista(nome);
-  input.value = ""; // Limpa o campo
+  input.value = "";
 }
 function adicionarNomeNaLista(nome) {
-  let lista = document.getElementById("listaAmigos"); // Obtém a lista
-  let li = document.createElement("li"); // Cria um novo elemento <li>
-  li.textContent = nome; // Define o texto do <li>
-  lista.appendChild(li); // Adiciona o <li> à lista sem apagar os existentes
+  let lista = document.getElementById("listaAmigos");
+  let li = document.createElement("li");
+  li.textContent = nome;
+  lista.appendChild(li);
 }
 function sortearAmigo() {
   if (amigos.length === 0) {
